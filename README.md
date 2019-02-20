@@ -1,0 +1,1 @@
+- install rabbitMQ, MacOS, "brew install rabbitmq"

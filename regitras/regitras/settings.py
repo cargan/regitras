@@ -128,3 +128,9 @@ REST_FRAMEWORK = {
         'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
     ]
 }
+
+# BROKER_URL = 'django://' #  and add this app:
+# broker_url = 'amqp://myuser:mypassword@localhost:5672/myvhost'
+# BROKER_URL = 'amqp://myuser:mypassword@localhost:5672/myvhost'
+
+# INSTALLED_APPS += ('kombu.transport.django', )
